@@ -1,3 +1,3 @@
 # MyTestRepo2
 
-Thhis is test for Branch rules
+Thhis is test for Branch rules test
