@@ -13,8 +13,8 @@ jobs:
           
           target_branch=${GITHUB_BASE_REF}
           echo "target branch: $target_branch"
-          dev_regex="^(bug|feature|code-cleanup)/JIRA-.+$"
-          qa_regex="^kickback/JIRA-.+$"
+          dev_regex="^(bug|feature|code-cleanup)/JIRA-[0-9]+.*$"
+          qa_regex="^kickback/JIRA-[0-9]+.*$"
           
           if [[ "$branch_name" =~ $dev_regex ]]; then
             echo "Branch name matches the first regex pattern."
