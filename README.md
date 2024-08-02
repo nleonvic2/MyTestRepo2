@@ -1,3 +1,3 @@
 # MyTestRepo2
 
-Thhis is test for Branch rules test
+Thhis is test for Branch rules test Without Jira
